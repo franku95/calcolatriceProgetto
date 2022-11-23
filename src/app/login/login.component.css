@@ -1,0 +1,28 @@
+.sommaButton{
+    left: 15%;
+    top: 29%;
+    position: absolute;
+}
+
+.sottrazioneButton{
+    left: 18%;
+    top: 29%;
+    position: absolute;
+}
+
+.divisioneButton{
+    left: 15%;
+    top: 35%;
+    position: absolute;
+}
+
+.moltiplicazioneButton{
+    left: 18%;
+    top: 35%;
+    position: absolute;
+}
+
+.risultato{
+    top: 42%;
+    position: absolute;
+}

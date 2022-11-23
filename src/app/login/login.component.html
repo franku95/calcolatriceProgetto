@@ -1,0 +1,36 @@
+<div>
+    <input type="text" [(ngModel)]="username" placeholder="Inserisci username">
+</div>
+<br>
+<div>
+    <input type="password" [(ngModel)]="password" placeholder="Inserisci password">
+</div>
+<br>
+<div>
+    <button (click)="invia()">Invia</button>
+</div>
+<br>
+<div *ngIf="controllo">
+    <h3>Calcolatrice</h3>
+    <div>
+        <input type="number" [(ngModel)]="firstNumber">
+    </div><br>
+    <div>
+        <input type="number" [(ngModel)]="secondNumber">
+    </div>
+    <div>
+        <button class="sommaButton"(click)="somma()">+</button>
+    </div><br>
+    <div>
+        <button class="sottrazioneButton"(click)="sottrazione()">-</button>
+    </div><br>
+    <div>
+        <button class="divisioneButton"(click)="divisione()">/</button>
+    </div><br>
+    <div>
+        <button class="moltiplicazioneButton"(click)="moltiplicazione()">*</button>
+    </div>
+    <div class="risultato">
+        Risultato = {{risultato}}
+    </div>
+</div>
